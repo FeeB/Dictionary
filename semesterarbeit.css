@@ -1,0 +1,41 @@
+// Fee Braun, 5298024, 18.03.2011, Proseminar HKI
+body {
+	background-image: url(hintergrund_1.gif); 
+	background-repeat: repeat-x;
+	font-family: fantasy; 
+	font-size: 18px;
+	line-height: 34px;
+}
+
+a:link {
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: underline;
+	color: grey;
+}
+a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+a:active {
+	text-decoration: underline;
+	color: blue;
+}
+#alphabet {
+	letter-spacing: 5px;
+	margin-left: 230px;
+	margin-top: 17px
+}	
+#result {
+	margin: 70px auto auto 230px;
+}
+#suche {
+	margin-left: 40px;
+}
+h1 {
+	padding: 0;
+	margin: 0 0 27px 0;
+	font-family: fantasy; 
+	font-size: 18px;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT entries (entry+) >
+<!ATTLIST entry
+           id CDATA #REQUIRED>
+<!ELEMENT entry (term, definition, tags*) >
+<!ELEMENT tags (tag+)>
+<!ELEMENT term (#PCDATA) >
+<!ELEMENT definition (#PCDATA) >
+<!ELEMENT tag (#PCDATA) >

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entries SYSTEM "file:/Users/Fee/Sites/Semesterarbeit_FeeBraun/liste.dtd">
+<entries>
+    <entry id="1">
+        <term>Addition von Binärzahlen</term>
+        <definition>Die Addition ist analog zu dem Dezimalsystem. Jedoch wird hier ein Überhang von 1 zur nächst höheren Potenz übertragen, wenn das Ergebnis größer als 2 ist. 0+0=0; 1+0=1; 1+1=0 mit Übertrag</definition>
+        <tags>
+        	<tag>Zahlensystem</tag>
+        	<tag>Binärzahlen</tag>
+         	<tag>Rechenart</tag>
+       </tags>
+    </entry>
+    <entry id="2">
+        <term>Bestandteile Von-Neumann-Architektur</term>
+        <definition>Eine von Neumann-Maschine besteht aus der zentralen Recheneinheit CPU, die wiederum aus ALU und der Steuereinheit besteht. Die ALU bearbeitet Daten, die Steuereinheit koordiniert die zeitlichen Abläufe im Rechner. Durch diese Prozesse werden Befehle  geholt und können anschließend ausgeführt werden.
+            Die Steuereinheit hat die Bestandteile Befehlsregister, Befehlsdecoder, Speicheradressregister und Befehlszähler.
+            
+            Als nächste Komponente der von Neumann-Maschine ist der Speicher zu nennen. Dieser beinhaltet Speicherzellen, die jeweils ein Bit speichern können. Die Speicherzellen werden zu Speicherworten oder Speicherzeilen zusammengefasst.
+            
+            Zudem gibt es die Ein- und Ausgabe-Einheit, diese Einheit kann mit allem kommunizieren, was "nicht mehr zu dem eigentlichen, universellen Von Neumann Rechner-Konzept gehört". Somit bildet diese Einheit die Schnittstelle zur Außenwelt.
+            
+            Als letzte Komponente wird der interne Datenweg (Bus) beschrieben. Die wichtigsten Busse sind der Datenbus, der Adressbus und der Steuerbus.
+            Der Datenbus überträgt die Daten, die über den Adressbus angefordert wurden. Der Adressbus überträgt ausschließlich Adressen (Speicherplätze vom Speicheranfang bis zum Speicherende). Der Steuerbus übernimmt die Kontrolle über den Bus.
+        </definition> 
+        <tags>
+        	<tag>Architektur</tag>
+        	<tag>Von-Neumann</tag>
+        </tags>        
+    </entry>
+    <entry id="3">
+        <term>Binärcode</term>
+        <definition>Binärcode ist die Gesamtheit aller Codes welche Informationen durch Sequenzen von zwei verschiedenen Symbolen (zum Beispiel 1/0 oder wahr/falsch) dargestellt werden können. Die Bezeichnung leitet sich von der lateinischen Vorsilbe "bi" ab, welche die Bedeutung "zwei" oder "doppelt" hat.
+            Vor allem bei der digitalen Verarbeitung von Informationen spielen Binärcodes eine große Rolle, da sie sich durch Spannungswerte sehr leicht abbilden lassen. (Beispiel: Spannung liegt an → logisch 1, Spannung liegt nicht an → logisch 0). Dabei kommen verschiedene Verfahren und Techniken zu Anwendung, die in den einzelne Codes genauer beschrieben sind, gemeinsame Basis bildet jedoch immer die Festlegung auf nur zwei verschiedene Symbole. Entsprechen die beiden Symbole 1/0 bzw. wahr/falsch spricht man in der Informationstechnik von einem Bit.
+        </definition>
+        <tags>
+        	<tag>Binärzahlen</tag>
+        	<tag>Zahlensystem</tag>
+        </tags>
+    </entry>
+    <entry id="4">
+        <term>Bit</term>
+        <definition>Der Begriff Bit (binary digit) wird in der Informatik, der Informationstechnik, der Nachrichtentechnik sowie verwandten Fachgebieten in folgenden Bedeutungen verwendet:
+            als Bezeichnung für eine Binärziffer (üblicherweise „0“ und „1“).
+            als Maßeinheit für die Datenmenge bei digitaler Speicherung von Daten. Die Datenmenge entspricht in diesem Fall der verwendeten Anzahl von binären Variablen zur Abbildung der Information, kann also nur als ganzzahliges Vielfaches von 1 Bit angegeben werden.
+            als Maßeinheit für den Informationsgehalt (siehe auch Shannon, Nit, Ban). Dabei ist 1 Bit der Informationsgehalt, der in einer Auswahl aus zwei gleich wahrscheinlichen Möglichkeiten enthalten ist. Als Informationsgehalt können auch reellwertige Vielfache von 1 Bit auftreten.
+        </definition>
+        <tags>
+        	<tag>Binärzahlen</tag>
+        	<tag>Zahlensystem</tag>
+        </tags>
+    </entry>
+    <entry id="5">
+        <term>Darstellungsmöglichkeiten Bit</term>
+        <definition>1 Bit = 2 Darstellungsmöglichkeiten
+            2 Bit = 4 Darstellungsmöglichkeiten
+            3 Bit = 16 Darstellungsmöglichkeiten
+            4 Bit = 32 Darstellungsmöglichkeiten
+            5 Bit = 64 Darstellungsmöglichkeiten
+            6 Bit = 128 Darstellungsmöglichkeiten
+            usw.
+        </definition>
+        <tags>
+        	<tag>Binärzahlen</tag>
+        </tags>
+    </entry>
+    <entry id="6">
+        <term>Hexadezimal</term>
+        <definition>Im Hexadezimalsystem (lat.-griech. Mischwort) werden Zahlen in einem Stellenwertsystem zur Basis 16 dargestellt.
+            Alternative Bezeichnungen für hexadezimal (von griech. „hexa“ und lat. „decem“) sind hexadekadisch (Griechisch) und sedezimal (Latein). (Falsch hingegen ist der Ausdruck hexagesimal, der synonym zu sexagesimal ist und das Zahlensystem zur Basis 60 bezeichnet.)
+            In der Datenverarbeitung wird das Hexadezimalsystem sehr oft verwendet, da es sich hierbei letztlich nur um eine komfortablere Verwaltung des Binärsystems handelt. Die Datenworte bestehen in der Informatik meist aus Oktetten, die statt als achtstellige Binärzahlen auch als nur zweistellige Hexadezimalzahlen dargestellt werden können. Im Gegensatz zum Dezimalsystem eignet sich das Hexadezimalsystem mit seiner Basis als vierte Zweierpotenz (16 = 24) zur einfacheren Notation der Binärzahlen, da stets eine feste Anzahl Zeichen zur Wiedergabe des Datenwortes benötigt wird.
+        </definition>
+        <tags>
+        	<tag>Zahlensystem</tag>
+        </tags>
+    </entry>
+    <entry id="7">
+        <term>Multiplikation von Binärzahlen</term>
+        <definition>Die Multiplikation wird wie im Dezimalsystem durchgeführt;  die Produkte werden untereinander geschrieben und dann addiert</definition>
+        <tags>
+        	<tag>Zahlensystem</tag>
+        	<tag>Binärzahlen</tag>
+         	<tag>Rechenart</tag>
+       </tags>
+    </entry>
+    <entry id="8">
+        <term>Subtraktion von Binärzahlen</term>
+        <definition>Subtraktion erfolgt mit dem Zweierkomplement: Addition des Zweierkomplement der negativen Zahl</definition>
+        <tags>
+        	<tag>Zahlensystem</tag>
+        	<tag>Binärzahlen</tag>
+         	<tag>Rechenart</tag>
+       </tags>
+    </entry>
+    <entry id="9">
+        <term>Umrechnung Dezimal in Binär</term>
+        <definition>Die umzuwandelnde Zahl wird durch 2 dividiert. Das Ergebnis wird wiederum durch 2 dividiert. Der jeweilige Rest wird als Binärzahl in eine Reihenfolge von rechts nach linkss gebracht</definition>
+        <tags>
+        	<tag>Umrechnung</tag>
+        	<tag>Binärzahlen</tag>
+       </tags>
+    </entry>
+    <entry id="10">
+        <term>Universalrechner</term>
+        <definition>Die von Neumann Maschine ist ein Universalrechner, weil sie nicht nur für ein spezielles Problem konstruiert wurde, sondern in der Lage ist verschiedene Probleme mit entsprechender Software zu lösen. Dies ist möglich, da die Struktur des Rechners von dem Problem unabhängig ist.</definition>
+        <tags>
+        	<tag>Architektur</tag>
+        </tags>
+    </entry>
+    <entry id="11">
+        <term>Von-Neumann Maschine</term>
+        <definition>Die von Neumann Maschine ist ein Universalrechner, weil sie nicht nur für ein spezielles Problem konstruiert wurde, sondern in der Lage ist verschiedene Probleme mit entsprechender Software zu lösen. Dies ist möglich, da die Struktur des Rechners von dem Problem unabhängig ist.</definition>
+        <tags>
+        	<tag>Architektur</tag>
+        	<tag>Von-Neumann</tag>
+        </tags>
+    </entry>
+    <entry id="12">
+    	<term>ASCII-Code</term>
+    	<definition>American Standard Code for Information Interchange (ASCII, alternativ US-ASCII, oft [æski] ausgesprochen) ist eine 7-Bit-Zeichenkodierung; sie entspricht der US-Variante von ISO 646 und dient als Grundlage für spätere auf mehr Bits basierenden Kodierungen für Zeichensätze.</definition>
+    	<tags>
+    		<tag>Zeichencodierung</tag>
+    	</tags>
+    </entry>
+    <entry id="13">
+    	<term>Unicode</term>
+    	<definition>Unicode [ˈjuːnɪkoʊd] ist ein internationaler Standard, in dem langfristig für jedes sinntragende Schriftzeichen oder Textelement aller bekannten Schriftkulturen und Zeichensysteme ein digitaler Code festgelegt wird. Ziel ist es, die Verwendung unterschiedlicher und inkompatibler Kodierungen in verschiedenen Ländern oder Kulturkreisen zu beseitigen. Unicode wird laufend um Zeichen weiterer Schriftsysteme ergänzt. ISO 10646 ist die von ISO verwendete, praktisch bedeutungsgleiche Bezeichnung des Unicode-Zeichensatzes; er wird dort als Universal Character Set (UCS) bezeichnet.</definition>
+    	<tags>
+    		<tag>Zeichencodierung</tag>
+    	</tags>
+    </entry>
+    <entry id="14">
+    	<term>Logikgatter</term>
+    	<definition>Ein Logikgatter oder Gatter (engl. gate) vollzieht in der technischen Informatik eine logische Auswertung von Eingangssignalen an einer Schaltung der Digitaltechnik. Dabei werden an einem oder mehreren Eingängen logische Zustände angelegt – gemeinhin als „0” oder „1” interpretiert –, die mit logischen Operatoren wie UND, ODER oder NICHT in ein einziges logisches Ergebnis umgewandelt werden. Je nach Realisierung der Gatter können die Signale in Form von Spannungspegeln, Druck oder Bewegung von Gasen oder Flüssigkeiten, oder weiterem vorliegen. Dabei wird meistens der jeweils höhere Pegel als "1" - logisch Wahr - und der niedrigere als "0" - logisch Falsch betrachtet.</definition>
+    	<tags>
+    		<tag>technische Informatik</tag>
+    		<tag>Schaltung</tag>
+    	</tags>
+    </entry>
+    <entry id="15">
+    	<term>NOT-Gatter</term>
+    	<definition>Ein Nicht-Gatter (engl.: NOT gate), auch als Komplement-Gatter oder Inverter bezeichnet, ist ein Gatter mit einem Eingang und einem Ausgang. Es entspricht dem logischen Nicht. In der Aussagenlogik wird das Komplement durch ein ¬ vor, in der Schaltalgebra durch einen Querstrich über den entsprechenden Symbolen dargestellt. Dabei liefert der Ausgang genau dann eine 1, wenn am Eingang eine 0 anliegt und genau dann eine 0, wenn am Eingang eine 1 anliegt. Er liefert also die Negation des am Eingang anliegenden Signals.</definition>
+    	<tags>
+    		<tag>Gatter</tag>
+    		<tag>Schaltung</tag>
+    	</tags>
+    </entry>
+    <entry id="16">
+    	<term>AND-Gatter</term>
+    	<definition>Ein Und-Gatter ist ein Gatter mit mehreren Eingängen und einem Ausgang, bei dem der Ausgang genau dann eine 1 liefert, wenn an allen Eingängen 1 anliegt. Es entspricht dem Logischen UND. In der Schaltalgebra wird die UND-Verknüpfung durch • (Mal), als kaufmännisches und oder '∧' dargestellt und wird auch als Konjunktion bezeichnet.</definition>
+    	<tags>
+    		<tag>Gatter</tag>
+    		<tag>Schaltung</tag>
+    	</tags>
+    </entry>
+    <entry id="17">
+    	<term>OR-Gatter</term>
+    	<definition>Ein Oder-Gatter ist ein Gatter mit mehreren Eingängen und einem Ausgang, bei dem der Ausgang genau dann eine 1 liefert, wenn an mindestens einem Eingang eine 1 anliegt. Es entspricht dem Logischen ODER. In der Schaltalgebra wird die Oder-Verknüpfung durch + oder \or (Ursprung ist das lat. Wort "vel" (oder)) dargestellt und wird auch als Disjunktion bezeichnet.</definition>
+    	<tags>
+    		<tag>Gatter</tag>
+    		<tag>Schaltung</tag>
+    	</tags>
+    </entry>
+    <entry id="18">
+    	<term>XOR-Gatter</term>
+    	<definition>Ein XOR-Gatter (von engl. eXclusive OR - exklusives Oder, entweder oder) ist ein Gatter mit mehreren Eingängen und einem Ausgang, bei dem der Ausgang genau dann logisch „1“ ist, wenn an einer ungeraden Anzahl von Eingängen „1“ anliegt und an den restlichen „0“. Die XOR-Verknüpfung wird auch als Anti- oder Kontravalenz bezeichnet.</definition>
+    	<tags>
+    		<tag>Gatter</tag>
+    		<tag>Schaltung</tag>
+    	</tags>
+    </entry>
+    <entry id="19">
+    	<term>Flipflop Schaltung</term>
+    	<definition>Ein Flipflop (engl. flip-flop), meist auch bistabile Kippstufe oder bistabiles Kippglied genannt, ist eine elektronische Schaltung, die zwei stabile Zustände einnehmen und diese speichern kann. Das Flipflop ist eine einfache elektronische Schaltung, welche eine Datenmenge von einem Bit über eine lange Zeit speichern kann. Es ist fundamentaler Bestandteil vieler elektronischer Schaltungen (sequentieller Schaltkreise) – von der Quarzuhr bis zum Mikroprozessor. Daneben ist es in vieltausend- bis milliardenfacher Ausführung in Computerspeicherchips (statischen Speicherbausteinen) enthalten.</definition>
+    	<tags>
+    		<tag>Schaltung</tag>
+    	</tags>
+    </entry>
+    <entry id="20">
+    	<term>Betriebssystem</term>
+    	<definition>Ein Betriebssystem ist die Software, die die Verwendung (den Betrieb) eines Computers ermöglicht. Es verwaltet Betriebsmittel wie Speicher, Ein- und Ausgabegeräte und steuert die Ausführung von Programmen. Betriebssystem heißt auf Englisch operating system (OS). Dieser englische Ausdruck kennzeichnet den Sinn und Zweck: Die in den Anfängen der Computer stark mit schematischen und fehlerträchtigen Arbeiten beschäftigten Operatoren schrieben Programme, um sich die Arbeit zu erleichtern; diese wurden nach und nach zum operating system zusammengefasst. Betriebssysteme bestehen in der Regel aus einem Betriebssystemkern (englisch: Kernel), der die Hardware des Computers verwaltet, sowie grundlegenden Programmen, die dem Start des Betriebssystems und dessen Konfiguration dienen. Betriebssysteme finden sich in fast allen Computern: Als Echtzeitbetriebssysteme auf Prozessrechnern, auf normalen PCs und auf Mehrprozessorsystemen wie z. B. Hosts und Großrechnern.</definition>
+	</entry>
+	<entry id="21">
+		<term>Multitasking</term>
+		<definition>Der Begriff Multitasking [ˌmʌltiˈtɑːskɪŋ] (engl.) bzw. Mehrprozessbetrieb bezeichnet die Fähigkeit eines Betriebssystems, mehrere Aufgaben (Tasks) nebenläufig auszuführen. Dabei werden die verschiedenen Prozesse in so kurzen Abständen immer abwechselnd aktiviert, dass der Eindruck der Gleichzeitigkeit entsteht.</definition>
+		<tags>
+			<tag>Multitasking</tag>
+			<tag>Betriebssystem</tag>
+		</tags>
+	</entry>
+	<entry id="22">
+		<term>Kooperatives Multitasking</term>
+		<definition>Eine Weiterentwicklung der TSR-Konzeption ist das „kooperative Multitasking“, das ebenfalls auf dem Konzept der synchronen Interrupts aufsetzt. Hierbei wird das Multitasking durch eine zentrale Prozessverwaltung im Systemkernel realisiert, die im Innenverhältnis des Betriebssystems als eine Art weiterentwickeltes TSR-Programm arbeitet und die Rechenleistung nacheinander an die gestarteten Prozesse abgibt. Von hier aus werden natürlich auch die Treiber gesteuert. Dabei ist es jedem Prozess selbst überlassen, wann er die Kontrolle an den Kern zurückgibt. Eine Prioritätszuweisung nach Wichtigkeit ist damit systembedingt ausgeschlossen. Vorteil dieser Methode ist, dass Systemfunktionen (z. B. Ein-/Ausgabe) nicht wiedereintrittsfähig sein müssen und daher nicht synchronisiert sein müssen, was eine erhebliche Vereinfachung für den Hersteller bedeutet. Diese Form des Multitasking hat allerdings vom TSR-Konzept den Nachteil übernommen, dass Programme, die ihre Kooperation abbrechen, das gesamte System zum Stillstand bringen können. Ein Grund für ein Abbrechen durch das Programm können enthaltene Fehler oder auch eine durch den Programmierer gewollte Fehlfunktion eines Systems sein.</definition>
+		<tags>
+			<tag>Multitasking</tag>
+			<tag>Betriebssystem</tag>
+		</tags>
+	</entry>
+	<entry id="23">
+		<term>Präemptives Multitasking</term>
+		<definition>Die heutzutage standardmäßig angewendete Methode ist das präemptive Multitasking, bei dem der Betriebssystemkern die Abarbeitung der einzelnen Prozesse steuert (siehe unten) und jeden Prozess nach einer bestimmten Abarbeitungszeit zu Gunsten anderer Prozesse anhält. Dann „schläft“ der Prozess (ist inaktiv) und andere Prozesse werden bearbeitet. Erhält er wieder eine Prozessorzuteilung, so setzt er seine Arbeit fort (ist aktiv). Eine beliebte Umsetzung des präemptiven Multitaskings ist die Verwendung einer Vorrangwarteschlange in Verbindung mit der Round-Robin-Scheduling-Strategie. Dabei spricht man auch von so genannten Zeitschlitzen (bzw. Zeitscheiben, engl. time slicing). Damit wird jedem Prozess eine „absolute“ Zeitscheibe zugewiesen (alle Zeitscheiben haben die gleiche, fester Dauer), oder pro definierter Zeiteinheit abhängig von dessen Rechenaufwand ein bestimmter Prozentteil dieser Zeiteinheit, die er höchstens nutzen kann. Endet seine Zeitscheibe („seine Prozessorzuteilung ist zu Ende“), dann unterbricht ihn das Betriebssystem, und er wird wieder „schlafen gelegt“. Sollte er bereits vor Ablauf seiner Zeitscheibe eine Funktion des Betriebssystems benötigen, so wird er sogleich angehalten und als „nicht rechenbereit“ markiert, bis das Betriebssystem den gewünschten Dienst erbracht hat. Nur als „rechenbereit“ markierte Prozesse erhalten Prozessorzeit-Zuteilungen.</definition>
+		<tags>
+			<tag>Multitasking</tag>
+			<tag>Betriebssystem</tag>
+		</tags>
+	</entry>
+	<entry id="24">
+		<term>Paging</term>
+		<definition>Als Paging (vgl. engl. page Speicherseite) oder deutsch Kachelverwaltung bezeichnet man die Methode der Arbeitsspeicher-Verwaltung per Seitenadressierung durch Betriebssysteme. Gelegentlich wird der Begriff Paging synonym mit der gesamten virtuellen Speicherverwaltung gebraucht. Dieser Sprachgebrauch ist jedoch unpräzise, da das Paging nur einen – wenn auch zentralen – Aspekt der virtuellen Speicherverwaltung ausmacht.</definition>
+		<tags>
+			<tag>swapping</tag>
+			<tag>Arbeitsspeicher Verwaltung</tag>
+		</tags>
+	</entry>
+	<entry id="25">
+		<term>Swapping</term>
+		<definition>Swapping [swɐpɪŋ] (engl. für Umlagerung; kommt von englisch to swap ‚austauschen‘) beschreibt in der Informatik das Schreiben von Daten, die sich im schnellen, aber kleinen Hauptspeicher (RAM) des Computers befinden, auf den langsamen, aber großen Hintergrundspeicher (wie zum Beispiel eine Festplatte) und umgekehrt das Laden solcher Daten aus dem Hintergrund- in den Hauptspeicher. Dieser Vorgang ist Teil der Segmentierung, einer speziellen Art der Speicherverwaltung in Betriebssystemen. Das für diese Zwecke eingesetzte, im Hintergrund arbeitende Computerprogramm wird auch als Swapper bezeichnet.</definition>
+		<tags>
+			<tag>Paging</tag>
+			<tag>Arbeitsspeicher Verwaltung</tag>
+		</tags>
+	</entry>
+	<entry id="26">
+		<term>Virtuelle Maschine</term>
+		<definition>Eine virtuelle Maschine, kurz VM, ist ein virtueller Computer. Eine solche Maschine besteht nicht aus Hardware, sondern aus Software. Auf einem physischen Computer können gleichzeitig mehrere virtuelle Maschinen betrieben werden. Virtuelle Maschinen werden als Betriebssystem ausgeführt, das nicht exklusiv über den Computer verfügt, oder als Laufzeitumgebung. Eine Laufzeitumgebung ist ein Modell eines Computers in Software. Sich als Betriebssystem darstellende virtuelle Maschinen können vollständig durch Software (z/VM), mit zusätzlicher Unterstützung durch Hardware und Firmware (Intel VT, AMD-V) oder allein durch Hardware und Firmware (LPAR) realisiert werden.</definition>
+	</entry>
+	<entry id="27">
+		<term>Kontrollstruktur</term>
+		<definition>Kontrollstrukturen (Steuerkonstrukte) werden in imperativen Programmiersprachen verwendet, um den Ablauf eines Computerprogramms zu steuern. Eine Kontrollstruktur gehört entweder zur Gruppe der Verzweigungen oder der Schleifen. Meist wird ihre Ausführung über logische Ausdrücke der booleschen Algebra beeinflusst. Kontrollstrukturen können über spezielle Diagramme visualisiert werden (z. B. Nassi-Shneiderman-Diagramme)</definition>
+		<tags>
+			<tag>Programmiersprache</tag>
+		</tags>
+	</entry>
+	<entry id="28">
+		<term>Stacks</term>
+		<definition>In der Informatik bezeichnet ein Stapelspeicher oder Kellerspeicher (kurz Stapel oder Keller, häufig auch mit dem englischen Wort Stack bezeichnet) eine häufig eingesetzte Datenstruktur. Sie wird von den meisten Mikroprozessoren in der Hardware direkt unterstützt.</definition>
+		<tags>
+			<tag>Speicher</tag>
+			<tag>Datenstruktur</tag>
+		</tags>
+	</entry>
+	<entry id="29">
+		<term>Queues</term>
+		<definition>In der Informatik bezeichnet eine Warteschlange (engl. Queue [kju]) eine häufig eingesetzte Datenstruktur.</definition>
+		<tags>
+			<tag>Speicher</tag>
+			<tag>Datenstruktur</tag>
+		</tags>
+	</entry>
+	<entry id="30">
+		<term>Liste</term>
+		<definition>Die Verkettete Liste ist eine dynamische Datenstruktur, die eine Speicherung von einer im Vorhinein nicht bestimmten Anzahl von miteinander in Beziehung stehenden Objekten erlaubt. Sie wird durch Zeiger auf die jeweils folgende(n) Knoten oder Speicherzellen des Arbeitsspeichers realisiert.</definition>
+		<tags>
+			<tag>Speicher</tag>
+			<tag>Datenstruktur</tag>
+		</tags>
+	</entry>
+	<entry id="31">
+		<term>Binärbaum</term>
+		<definition>Als Binärbaum bezeichnet man in der Graphentheorie eine spezielle Form eines Graphen. Genauer gesagt handelt es sich um einen Wurzelbaum (gewurzelten Baum), bei dem jeder Knoten höchstens zwei Kindknoten besitzt. Meist wird verlangt, dass sich die Kindknoten eindeutig in linkes und rechtes Kind einteilen lassen. Ein anschauliches Beispiel für einen solchen Binärbaum ist die Ahnentafel. Hierbei sind allerdings die Elternteile die Kindknoten.</definition>
+		<tags>
+			<tag>binär</tag>
+		</tags>
+	</entry>
+	<entry id="32">
+		<term>Traversierung</term>
+		<definition>Das aus der lateinischen Sprache stammende Wort Traversierung (Verbum französisch: traverser, englisch: to traverse) wird verschiedentlich im Sinn von „etwas durchschreiten, überqueren“ gebraucht.</definition>
+	</entry>
+	<entry id="33">
+		<term>Automat</term>
+		<definition>Ein Automat (entlehnt aus lat. automatus „freiwillig, aus eigenem Antrieb handelnd“, von gr. αὐτόματος (automatos) „von selbst geschehend“, zu autos „selbst“ und der Wurzel men- „denken, wollen“[1]) ist eine Maschine, die vorbestimmte Abläufe selbsttätig („automatisch“) ausführt.</definition>
+		<tags>
+			<tag>Automat</tag>
+		</tags>
+	</entry>
+	<entry id="34">
+		<term>Kellerautomat</term>
+		<definition>Ein Kellerautomat (KA, auch PDA für englisch pushdown automaton; auch Stackmaschine) ist ein Automat im Sinne der theoretischen Informatik. Es handelt sich um ein rein theoretisches Konstrukt, das verwendet wird, um gewisse Eigenschaften von Problemen und Algorithmen zu analysieren und zu beweisen – ob es tatsächlich möglich oder sinnvoll wäre, eine solche Maschine zu bauen, ist dabei unerheblich.</definition>
+		<tags>
+			<tag>Automat</tag>
+		</tags>
+	</entry>
+	<entry id="35">
+		<term>Chomsky-Hierarchie</term>
+		<definition>Chomsky-Hierarchie, gelegentlich Chomsky–Schützenberger-Hierarchie (benannt nach dem Linguisten Noam Chomsky und dem Mathematiker Marcel Schützenberger), ist ein Begriff aus der Theoretischen Informatik. Sie ist eine Hierarchie von Klassen formaler Grammatiken, die formale Sprachen erzeugen, und wurde 1956 erstmals von Noam Chomsky beschrieben. Die Hierarchiestufen unterscheiden sich darin, wie rigide die Einschränkungen für die Form zulässiger Produktionsregeln auf der jeweiligen Stufe sind; bei Typ-0-Grammatiken sind sie uneingeschränkt, bei höheren Stufen fortschreitend stärker beschränkt.</definition>
+	</entry>
+	<entry id="36">
+		<term>Einfach verkettete Liste</term>
+		<definition>Sie ist die einfachste Form der verketteten Liste, da sie neben den einzelnen Knoten nur einen „Start“-Zeiger besitzt. Dieser zeigt auf den ersten Knoten in der Liste. Der letzte Knoten in der Liste zeigt auf den Wert NULL (hier NIL für „Not In List”).Verbale Definition: Eine Liste ist entweder leer oder sie besteht aus einem Kopf und einem Zeiger, der wiederum eine Liste ist.</definition>
+		<tags>
+			<tag>Liste</tag>
+			<tag>Datenstruktur</tag>
+		</tags>
+	</entry>
+	<entry id="37">
+		<term>Informatik</term>
+		<definition>Informatik ist die Wissenschaft von der systematischen Verarbeitung von Informationen, insbesondere der automatischen Verarbeitung mit Hilfe von Rechenanlagen. Historisch hat sich die Informatik einerseits aus der Mathematik entwickelt, andererseits durch die Entwicklung von Rechenanlagen aus der Elektrotechnik und der Nachrichtentechnik.</definition>
+	</entry>
+	<entry id="38">
+		<term>Rückkopplung</term>
+		<definition>Eine Rückkopplung, auch Rückkoppelung oder Feedback [ˈfiːdˌbæk] (engl.), ist ein Mechanismus in signalverstärkenden oder informationsverarbeitenden Systemen, bei dem ein Teil der Ausgangsgröße direkt oder in modifizierter Form auf den Eingang des Systems zurückgeführt wird.</definition>
+		<tags>
+			<tag>Schaltung</tag>
+		</tags>
+	</entry>
+	
+	
+	
+</entries>
